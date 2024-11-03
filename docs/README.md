@@ -75,6 +75,15 @@
       print(area(5, 3))
       ```
 
+  - **`perimeter(length, width)`**
+    - **Описание**: Вычисляет периметр прямоугольника.
+    - **Параметры**: `length` и `width` — длина и ширина прямоугольника.
+    - **Пример**:
+      ```python
+      from rectangle import perimeter
+      print(perimeter(5, 3)) 
+      ```
+
 </details>
 
 <details>
@@ -86,10 +95,23 @@
     - **Пример**:
       ```python
       from triangle import area
-      print(area(6, 4))
+      print(area(6, 4)) 
+      ```
+
+  - **`perimeter(a, b, c)`**
+    - **Описание**: Вычисляет периметр треугольника.
+    - **Параметры**:
+      - `a` — длина первой стороны треугольника.
+      - `b` — длина второй стороны треугольника.
+      - `c` — длина третьей стороны треугольника.
+    - **Пример**:
+      ```python
+      from triangle import perimeter
+      print(perimeter(3, 4, 5))
       ```
 
 </details>
+
 
 ## История изменений
 
